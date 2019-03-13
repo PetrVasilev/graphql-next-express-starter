@@ -1,0 +1,18 @@
+type User {
+  _id: String!
+  email: String!
+  password: String!
+}
+
+type Query {
+  getMySelf: User!
+}
+
+type Mutation {
+  login(email: String!, password: String!): Auth!
+}
+
+type Auth {
+  token: String!
+  user: User!
+}

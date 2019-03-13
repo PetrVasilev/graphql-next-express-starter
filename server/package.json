@@ -1,6 +1,28 @@
 {
-  "name": "e-commerce-server",
+  "name": "server",
   "version": "0.0.1",
-  "description": "E-Commerse server side",
-  "license": "MIT"
+  "description": "GraphQL, Next JS, Express starter - server side",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec babel-node app.js",
+    "server": "NODE_ENV=production PORT=3000 babel-node app.js",
+    "deploy": "NODE_ENV=production pm2 start --attach npm -- run server"
+  },
+  "dependencies": {
+    "apollo-server": "^2.4.8",
+    "apollo-server-express": "^2.4.8",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "graphql": "^14.1.1",
+    "graphql-import": "^0.7.1",
+    "jsonwebtoken": "^8.5.0",
+    "mongoose": "^5.4.19"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "nodemon": "^1.18.10"
+  }
 }
