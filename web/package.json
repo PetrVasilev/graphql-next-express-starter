@@ -1,7 +1,7 @@
 {
-  "name": "e-commerce-web",
+  "name": "web",
   "version": "0.0.1",
-  "description": "E-Commerse web side",
+  "description": "GraphQL, Next JS, Express starter - web",
   "license": "MIT",
   "scripts": {
     "dev": "PORT=8080 node server.js",

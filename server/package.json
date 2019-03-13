@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "0.0.1",
-  "description": "GraphQL, Next JS, Express starter - server side",
+  "description": "GraphQL, Next JS, Express starter - server",
   "license": "MIT",
   "scripts": {
     "start": "nodemon --exec babel-node app.js",
