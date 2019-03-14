@@ -17,6 +17,14 @@ For run Server:
 
 ```cd server && yarn start```
 
+You need create environment file called .env
+
+```
+MONGO_URL=mongodb://localhost:27017/project
+USER_SECRET=some-secret-for-jwt-token
+SERVER_PORT=3000
+```
+
 For run Web:
 
 ```cd web && yarn dev```
